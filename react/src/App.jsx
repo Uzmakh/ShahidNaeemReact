@@ -16,6 +16,7 @@ import PassJsxToProps from './11-bPassJsxToProps';
 import InputBoxData from './12-InputBoxData';
 import ControlledComp from './13-ControlledComp';
 import SpreadOperator from './14-SpreadOperator';
+import CheckBoxData from './15-CheckBoxData';
 
 
 function App() {
@@ -72,8 +73,8 @@ function App() {
      {/* <CompFunc />
       {flower}
       <Provinces />
-      <City />
-      <JsCode /> */}
+      <City /> */}
+      {/* <JsCode /> */}
       {/* <EventFunction />  */}
       {/* <StateInReact /> */}
       {/* <AssignmentOne /> */}
@@ -108,7 +109,8 @@ function App() {
       </PassJsxToProps> */}
       {/* <InputBoxData /> */}
       {/* <ControlledComp/> */}
-      <SpreadOperator/>
+      {/* <SpreadOperator/> */}
+      <CheckBoxData/>
     </>
   );
 }
