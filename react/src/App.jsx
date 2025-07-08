@@ -110,7 +110,7 @@ function App() {
       {/* <InputBoxData /> */}
       {/* <ControlledComp/> */}
       {/* <SpreadOperator/> */}
-      <CheckBoxData/>
+      {/* <CheckBoxData/> */}
     </>
   );
 }
