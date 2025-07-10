@@ -17,6 +17,7 @@ import InputBoxData from './12-InputBoxData';
 import ControlledComp from './13-ControlledComp';
 import SpreadOperator from './14-SpreadOperator';
 import CheckBoxData from './15-CheckBoxData';
+import RadioAndDropDown from './16-RadioAndDropDown';
 
 
 function App() {
@@ -111,6 +112,7 @@ function App() {
       {/* <ControlledComp/> */}
       {/* <SpreadOperator/> */}
       {/* <CheckBoxData/> */}
+      <RadioAndDropDown/>
     </>
   );
 }
