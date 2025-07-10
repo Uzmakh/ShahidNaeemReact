@@ -1,3 +1,5 @@
+import EmpCards from "./EmpCards";
+
 function TableAndArray() {
   const empInfo = [
     {
@@ -38,29 +40,12 @@ function TableAndArray() {
   ];
   return (
     <>
-      <h1>Array Data in Table</h1>
-      <table border="2">
-        <thead>
-          <tr>
-            <td>ID</td>
-            <td>NAME</td>
-            <td>AGE</td>
-            <td>SALARY</td>
-            <td>EMAIL</td>
-          </tr>
-        </thead>
-        <tbody>
-          {empInfo.map((user) => (
-            <tr key={user.id}>
-              <td>{user.id}</td>
-              <td>{user.name}</td>
-              <td>{user.age}</td>
-              <td>{user.salary}</td>
-              <td>{user.email}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <h1>Array Data with Props</h1>
+      {empInfo.map((employee) => (
+        <div key={employee.id}>
+          <EmpCards data={employee} />
+        </div>
+     ))}
     </>
   );
 }

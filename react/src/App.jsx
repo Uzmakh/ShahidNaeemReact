@@ -18,7 +18,7 @@ import ControlledComp from './13-ControlledComp';
 import SpreadOperator from './14-SpreadOperator';
 import CheckBoxData from './15-CheckBoxData';
 import RadioAndDropDown from './16-RadioAndDropDown';
-import TableAndArray from './17-TableAndArray';
+import TableAndArray from './empInfo/17-TableAndArray';
 
 
 function App() {
