@@ -80,7 +80,7 @@ function App() {
       {/* <EventFunction />  */}
       {/* <StateInReact /> */}
       {/* <AssignmentOne /> */}
-      {/* <ToggleButton /> */}
+      <ToggleButton />
       {/* <NumberToWords/> */}
       {/* <PropsInReact fullName={name} age={34} address={address} /> */}
       {/* <h1>Passing Object-Data in Props</h1>
@@ -114,7 +114,7 @@ function App() {
       {/* <SpreadOperator/> */}
       {/* <CheckBoxData/> */}
       {/* <RadioAndDropDown/>*/}
-    <TableAndArray/>
+    {/* <TableAndArray/> */}
     </>
   );
 }

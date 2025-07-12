@@ -3,18 +3,33 @@ import MyImg from "./MyImg";
 
 function ToggleButton() {
   const [display, setDisplay] = useState(true);
+
+  let divStyle = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  };
+  let btnStyle = { marginTop: "20px" };
   return (
     <>
-      <h1>Toggle Button</h1>
+      <div style={divStyle}>
+        <h1>Toggle Button</h1>
 
-      <button onClick={() => setDisplay(!display)}>ON | OFF</button>
-      <br />
-      <br />
-      {
-        //display?<>React<h2/>:<display>Angular<h2/>
+        {/* conditional rendering with ternary operator */}
+        {
+          //display ? <h3>React</h3> : <h3>Angular</h3>
+          display? <MyImg/>:null
+        }
 
-        display ? <MyImg /> : null
-      }
+        <button
+          onClick={() => {
+            setDisplay(!display);
+          }}
+          style={btnStyle}
+        >
+          ON|OFF
+        </button>
+      </div>
     </>
   );
 }
