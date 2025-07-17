@@ -22,10 +22,11 @@ import TableAndArray from './empInfo/17-TableAndArray';
 
 
 function App() {
-  // let name = "Sarah Ahmed";
-  // let address = "Johar Town,Lahore";
+  // ! tutorial-16 PropsInReact
+  let name = "Sarah Ahmed";
+  let address = "Johar Town,Lahore";
 
-  // tutorial-17 ObjectData
+  //! tutorial-17 ObjectData
   // Passing multiple objects
   // let employee1 = {
   //   name: "Muhammad Ahmed",
@@ -52,14 +53,14 @@ function App() {
   //   email: "879@gamil.com"
   // }
 
-  // tutorial-18 ArrayData
+  //! tutorial-18 ArrayData
   // Passing data of an array
   // let universities=["UET","NUST","BZU","LUMS","GIKI"]
 
   // tutorial-19 useState data
   // const [empName, setEmpName] = useState("Humera Khan");
 
-  // tutorial-20
+  //! tutorial-20
 //   let cardStyle = {
 //     backgroundColor: "yellow",
 //     padding: "20px",
@@ -69,6 +70,8 @@ function App() {
   //   border: "2px solid red",
   //   color: "blue",
   // }
+
+
   return (
     <>
       {/* <h1>JS code in JSX</h1> */}
@@ -82,7 +85,7 @@ function App() {
       {/* <AssignmentOne /> */}
       {/* <ToggleButton /> */}
       {/* <NumberToWords/> */}
-      {/* <PropsInReact fullName={name} age={34} address={address} /> */}
+      <PropsInReact fullName={name} age={34} address={address} />
       {/* <h1>Passing Object-Data in Props</h1>
       <ObjectData employee={employee1} />
       <ObjectData employee={employee2} />
