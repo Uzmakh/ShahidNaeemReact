@@ -7,17 +7,17 @@ import AssignmentOne from './assignments/AssignmentOne';
 import StateInReact from './4-StateInReact';
 import ToggleButton from './5-ToggleButton';
 import NumberToWords  from './6-NumberToWords';
-import PropsInReact from './7-PropsInReact';
-import ObjectData from './8-ObjectData';
-import ArrayData from './9-ArrayData';
-import PassUseStateAsProps from './10-PassUseStateAsProps';
-import PropsDefaultValue from "./11-aPropsDefaultValue";
-import PassJsxToProps from './11-bPassJsxToProps';
-import InputBoxData from './12-InputBoxData';
-import ControlledComp from './13-ControlledComp';
+import PropsInReact from './props/7-PropsInReact';
+import ObjectData from './props/8-ObjectData';
+import ArrayData from './props/9-ArrayData';
+import PassUseStateAsProps from './props/10-PassUseStateAsProps';
+import PropsDefaultValue from "./props/11-aPropsDefaultValue";
+import PassJsxToProps from './props/11-bPassJsxToProps';
+import InputBoxData from './formData/12-InputBoxData';
+import ControlledComp from './formData/13-ControlledComp';
 import SpreadOperator from './14-SpreadOperator';
-import CheckBoxData from './15-CheckBoxData';
-import RadioAndDropDown from './16-RadioAndDropDown';
+import CheckBoxData from './formData/15-CheckBoxData';
+import RadioAndDropDown from './formData/16-RadioAndDropDown';
 import TableAndArray from './empInfo/17-TableAndArray';
 
 
@@ -81,7 +81,7 @@ function App() {
       {/* <StateInReact /> */}
       {/* <AssignmentOne /> */}
       {/* <ToggleButton /> */}
-      <NumberToWords/>
+      {/* <NumberToWords/> */}
       {/* <PropsInReact fullName={name} age={34} address={address} /> */}
       {/* <h1>Passing Object-Data in Props</h1>
       <ObjectData employee={employee1} />
