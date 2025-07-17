@@ -80,8 +80,8 @@ function App() {
       {/* <EventFunction />  */}
       {/* <StateInReact /> */}
       {/* <AssignmentOne /> */}
-      <ToggleButton />
-      {/* <NumberToWords/> */}
+      {/* <ToggleButton /> */}
+      <NumberToWords/>
       {/* <PropsInReact fullName={name} age={34} address={address} /> */}
       {/* <h1>Passing Object-Data in Props</h1>
       <ObjectData employee={employee1} />

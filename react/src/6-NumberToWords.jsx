@@ -12,7 +12,7 @@ function NumberToWords() {
 
       <h3>Range(0 to 5)</h3>
       
-      {/* Putting multiple conditions through Ternery Operator */}
+      {/* Putting multiple conditions with Ternery Operator */}
       {num === 0 ? (
         <h1>zero</h1>
       ) : num === 1 ? (
