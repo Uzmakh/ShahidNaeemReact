@@ -23,11 +23,11 @@ import TableAndArray from './empInfo/17-TableAndArray';
 
 function App() {
   // ! tutorial-16 PropsInReact
-  let name = "Sarah Ahmed";
-  let address = "Johar Town,Lahore";
+  // let name = "Sarah Ahmed";
+  // let address = "Johar Town,Lahore";
 
   //! tutorial-17 ObjectData
-  // Passing multiple objects
+  //* Passing multiple objects
   // let employee1 = {
   //   name: "Muhammad Ahmed",
   //   age: 34,
@@ -54,10 +54,10 @@ function App() {
   // }
 
   //! tutorial-18 ArrayData
-  // Passing data of an array
-  // let universities=["UET","NUST","BZU","LUMS","GIKI"]
+  //* Passing data of an array
+  // let universities = ["UET", "NUST", "BZU", "LUMS", "GIKI"];
 
-  // tutorial-19 useState data
+  //! tutorial-19 useState data
   // const [empName, setEmpName] = useState("Humera Khan");
 
   //! tutorial-20
@@ -85,19 +85,19 @@ function App() {
       {/* <AssignmentOne /> */}
       {/* <ToggleButton /> */}
       {/* <NumberToWords/> */}
-      <PropsInReact fullName={name} age={34} address={address} />
+      {/* <PropsInReact fullName={name} age={34} address={address} /> */}
       {/* <h1>Passing Object-Data in Props</h1>
       <ObjectData employee={employee1} />
       <ObjectData employee={employee2} />
       <ObjectData employee={employee3} />
       <ObjectData employee={employee4} /> */}
-      {/* <ArrayData uni={universities} />
-      <ArrayData uni={universities[2]} /> */}
+      {/* <ArrayData uni={universities} /> */}
+      {/* <ArrayData uni={universities[2]} /> */}
       {/* {
         empName && 
         <PassUseStateAsProps emp={empName} />
-      }
-      <button onClick={()=>setEmpName("Farheen Khan")}>Change Name</button> */}
+      } */}
+      {/* <button onClick={()=>setEmpName("Farheen Khan")}>Change Name</button> */}
       {/* tutorial-20-a Passing Default Value as Props */}
       {/* <PropsDefaultValue userName="Mustafa"/>
       <PropsDefaultValue userName="Shaheer"/>
