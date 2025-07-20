@@ -96,8 +96,8 @@ function App() {
       {/* {
         empName && 
         <PassUseStateAsProps emp={empName} />
-      } */}
-      {/* <button onClick={()=>setEmpName("Farheen Khan")}>Change Name</button> */}
+      }
+       <button onClick={()=>setEmpName("Farheen Khan")}>Change Name</button> */}
       {/* tutorial-20-a Passing Default Value as Props */}
       {/* <PropsDefaultValue userName="Mustafa"/>
       <PropsDefaultValue userName="Shaheer"/>
