@@ -1,25 +1,24 @@
 // import { useState } from 'react';
 // import CompFunc, {Provinces,City, flower} from './1-CompFunc'
-import JsCode from './2-JsCode';
-import EventFunction from './3-EventFunction';
-import './App.css'
-import AssignmentOne from './assignments/AssignmentOne';
-import StateInReact from './4-StateInReact';
-import ToggleButton from './5-ToggleButton';
-import NumberToWords  from './6-NumberToWords';
-import PropsInReact from './props/7-PropsInReact';
-import ObjectData from './props/8-ObjectData';
-import ArrayData from './props/9-ArrayData';
-import PassUseStateAsProps from './props/10-PassUseStateAsProps';
+import JsCode from "./2-JsCode";
+import EventFunction from "./3-EventFunction";
+import "./App.css";
+import AssignmentOne from "./assignments/AssignmentOne";
+import StateInReact from "./4-StateInReact";
+import ToggleButton from "./5-ToggleButton";
+import NumberToWords from "./6-NumberToWords";
+import PropsInReact from "./props/7-PropsInReact";
+import ObjectData from "./props/8-ObjectData";
+import ArrayData from "./props/9-ArrayData";
+import PassUseStateAsProps from "./props/10-PassUseStateAsProps";
 import PropsDefaultValue from "./props/11-aPropsDefaultValue";
-import PassJsxToProps from './props/11-bPassJsxToProps';
-import InputBoxData from './formData/12-InputBoxData';
-import ControlledComp from './formData/13-ControlledComp';
-import SpreadOperator from './14-SpreadOperator';
-import CheckBoxData from './formData/15-CheckBoxData';
-import RadioAndDropDown from './formData/16-RadioAndDropDown';
-import TableAndArray from './empInfo/17-TableAndArray';
-
+import PassJsxToProps from "./props/11-bPassJsxToProps";
+import InputBoxData from "./formData/12-InputBoxData";
+import ControlledComp from "./formData/13-ControlledComp";
+import SpreadOperator from "./14-SpreadOperator";
+import CheckBoxData from "./formData/15-CheckBoxData";
+import RadioAndDropDown from "./formData/16-RadioAndDropDown";
+import TableAndArray from "./empInfo/17-TableAndArray";
 
 function App() {
   // ! tutorial-16 PropsInReact
@@ -61,21 +60,20 @@ function App() {
   // const [empName, setEmpName] = useState("Humera Khan");
 
   //! tutorial-20
-//   let cardStyle = {
-//     backgroundColor: "yellow",
-//     padding: "20px",
-// }
+  // let cardStyle = {
+  //   backgroundColor: "yellow",
+  //   padding: "20px",
+  // };
 
   // let styles = {
   //   border: "2px solid red",
   //   color: "blue",
-  // }
-
+  // };
 
   return (
     <>
       {/* <h1>JS code in JSX</h1> */}
-     {/* <CompFunc />
+      {/* <CompFunc />
       {flower}
       <Provinces />
       <City /> */}
@@ -99,27 +97,25 @@ function App() {
       }
        <button onClick={()=>setEmpName("Farheen Khan")}>Change Name</button> */}
       {/* tutorial-20-a Passing Default Value as Props */}
-      {/* <PropsDefaultValue userName="Mustafa"/>
-      <PropsDefaultValue userName="Shaheer"/>
-      <PropsDefaultValue />
+      {/* <PropsDefaultValue userName="Mustafa" />
       <PropsDefaultValue /> */}
       {/* tutorial-20-b Passing JSX as Props */}
-      {/* <PassJsxToProps >
+      {/* <PassJsxToProps>
         <div style={cardStyle}>
-        <h2>Passing JSX to Props</h2>
-        <h2>Student's Name: Zimar Khan</h2>
-        <h2>Father's Name: Shah Muhammad</h2>
-        <h2 style={styles}>Class: 6</h2>
+          <h2>Passing JSX to Props</h2>
+          <h2>Student's Name: Zimar Khan</h2>
+          <h2>Father's Name: Shah Muhammad</h2>
+          <h2 style={styles}>Class: 6</h2>
         </div>
       </PassJsxToProps> */}
-      {/* <InputBoxData /> */}
+      <InputBoxData />
       {/* <ControlledComp/> */}
       {/* <SpreadOperator/> */}
       {/* <CheckBoxData/> */}
       {/* <RadioAndDropDown/>*/}
-    {/* <TableAndArray/> */}
+      {/* <TableAndArray/> */}
     </>
   );
 }
 
-export default App
+export default App;
