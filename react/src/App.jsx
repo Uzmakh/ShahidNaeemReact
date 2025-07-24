@@ -108,8 +108,8 @@ function App() {
           <h2 style={styles}>Class: 6</h2>
         </div>
       </PassJsxToProps> */}
-      <InputBoxData />
-      {/* <ControlledComp/> */}
+      {/* <InputBoxData /> */}
+      <ControlledComp/>
       {/* <SpreadOperator/> */}
       {/* <CheckBoxData/> */}
       {/* <RadioAndDropDown/>*/}
