@@ -109,8 +109,8 @@ function App() {
         </div>
       </PassJsxToProps> */}
       {/* <InputBoxData /> */}
-      <ControlledComp/>
-      {/* <SpreadOperator/> */}
+      {/* <ControlledComp/> */}
+      <SpreadOperator/>
       {/* <CheckBoxData/> */}
       {/* <RadioAndDropDown/>*/}
       {/* <TableAndArray/> */}
