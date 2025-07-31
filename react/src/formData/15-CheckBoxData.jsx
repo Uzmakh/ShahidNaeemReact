@@ -9,7 +9,7 @@ function CheckBoxData() {
 
     if (event.target.checked) {
       setHobby([...hobby, event.target.value]);
-      console.log([...hobby, event.target.value])
+      console.log([...hobby, event.target.value]);
     } else {
       setHobby([...hobby.filter((item) => item != event.target.value)]);
     }

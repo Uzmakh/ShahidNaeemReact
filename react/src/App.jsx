@@ -19,6 +19,7 @@ import SpreadOperator from "./14-SpreadOperator";
 import CheckBoxData from "./formData/15-CheckBoxData";
 import RadioAndDropDown from "./formData/16-RadioAndDropDown";
 import TableAndArray from "./empInfo/17-TableAndArray";
+import NestedLoop from "./NestedLoop/18-NestedLoop";
 
 function App() {
   // ! tutorial-16 PropsInReact
@@ -110,10 +111,11 @@ function App() {
       </PassJsxToProps> */}
       {/* <InputBoxData /> */}
       {/* <ControlledComp/> */}
-      <SpreadOperator/>
+      {/* <SpreadOperator/> */}
       {/* <CheckBoxData/> */}
-      {/* <RadioAndDropDown/>*/}
+      {/* <RadioAndDropDown/> */}
       {/* <TableAndArray/> */}
+      <NestedLoop/>
     </>
   );
 }

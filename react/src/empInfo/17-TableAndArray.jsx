@@ -45,7 +45,7 @@ function TableAndArray() {
         <div key={employee.id}>
           <EmpCards data={employee} />
         </div>
-     ))}
+      ))}
     </>
   );
 }
