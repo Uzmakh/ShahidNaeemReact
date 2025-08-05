@@ -20,6 +20,7 @@ import CheckBoxData from "./formData/15-CheckBoxData";
 import RadioAndDropDown from "./formData/16-RadioAndDropDown";
 import TableAndArray from "./empInfo/17-TableAndArray";
 import NestedLoop from "./NestedLoop/18-NestedLoop";
+import UseEffectCompo from "./19-UseEffectCompo";
 
 function App() {
   // ! tutorial-16 PropsInReact
@@ -115,7 +116,8 @@ function App() {
       {/* <CheckBoxData/> */}
       {/* <RadioAndDropDown/> */}
       {/* <TableAndArray/> */}
-      <NestedLoop/>
+      {/* <NestedLoop/> */}
+      <UseEffectCompo/>
     </>
   );
 }
